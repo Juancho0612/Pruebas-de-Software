@@ -1,0 +1,323 @@
+{
+  "id": "ddbbfd8d-6c4e-4da1-9a77-195ddf256f56",
+  "version": "2.0",
+  "name": "taller1",
+  "url": "https://www.amazon.com/",
+  "tests": [{
+    "id": "beadfc48-8339-4682-be01-b17542faacad",
+    "name": "prueba",
+    "commands": [{
+      "id": "2cea7120-7a7d-4ab4-8c92-95bebdeca7b5",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.amazon.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ba91a421-fce3-4293-91cb-b4b676cc96dd",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1347x740",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "16ce52ae-3a6d-4f9e-97c5-50d9b4b4eee2",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#nav-link-accountList > .nav-line-2",
+      "targets": [
+        ["css=#nav-link-accountList > .nav-line-2", "css:finder"],
+        ["xpath=//a[@id='nav-link-accountList']/span", "xpath:idRelative"],
+        ["xpath=//a[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Cuenta y Listas')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6d410e7b-94b2-4116-9a3f-27efbb1dcacb",
+      "comment": "",
+      "command": "click",
+      "target": "css=#nav-link-accountList > .nav-line-2",
+      "targets": [
+        ["css=#nav-link-accountList > .nav-line-2", "css:finder"],
+        ["xpath=//a[@id='nav-link-accountList']/span", "xpath:idRelative"],
+        ["xpath=//a[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Cuenta y Listas')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "03d0e8ce-278f-4f00-847d-36b4c2447103",
+      "comment": "",
+      "command": "click",
+      "target": "id=ap_email",
+      "targets": [
+        ["id=ap_email", "id"],
+        ["name=email", "name"],
+        ["css=#ap_email", "css:finder"],
+        ["xpath=//input[@id='ap_email']", "xpath:attributes"],
+        ["xpath=//div[@id='authportal-main-section']/div[2]/div/div/form/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e86c4edb-f338-49d2-9610-0d4cdb79d42a",
+      "comment": "",
+      "command": "type",
+      "target": "id=ap_email",
+      "targets": [
+        ["id=ap_email", "id"],
+        ["name=email", "name"],
+        ["css=#ap_email", "css:finder"],
+        ["xpath=//input[@id='ap_email']", "xpath:attributes"],
+        ["xpath=//div[@id='authportal-main-section']/div[2]/div/div/form/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "3008289325"
+    }, {
+      "id": "ede2ddf2-a8a5-4a3b-9cb1-d1630380267a",
+      "comment": "",
+      "command": "click",
+      "target": "id=authportal-main-section",
+      "targets": [
+        ["id=authportal-main-section", "id"],
+        ["css=#authportal-main-section", "css:finder"],
+        ["xpath=//div[@id='authportal-main-section']", "xpath:attributes"],
+        ["xpath=//div[@id='authportal-center-section']/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c5ff24d2-e62e-49bf-b099-4368c1f75982",
+      "comment": "",
+      "command": "click",
+      "target": "css=.a-button-inner > #continue",
+      "targets": [
+        ["css=.a-button-inner > #continue", "css:finder"],
+        ["xpath=//input[@id='continue']", "xpath:attributes"],
+        ["xpath=//span[@id='continue']/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e711db37-b987-4040-90c8-20caa2a24dd8",
+      "comment": "",
+      "command": "click",
+      "target": "id=ap_password",
+      "targets": [
+        ["id=ap_password", "id"],
+        ["name=password", "name"],
+        ["css=#ap_password", "css:finder"],
+        ["xpath=//input[@id='ap_password']", "xpath:attributes"],
+        ["xpath=//div[@id='authportal-main-section']/div[2]/div/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "237fb846-84d8-4045-8630-42b4773edbed",
+      "comment": "",
+      "command": "type",
+      "target": "id=ap_password",
+      "targets": [
+        ["id=ap_password", "id"],
+        ["name=password", "name"],
+        ["css=#ap_password", "css:finder"],
+        ["xpath=//input[@id='ap_password']", "xpath:attributes"],
+        ["xpath=//div[@id='authportal-main-section']/div[2]/div/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "JuanDavid0612"
+    }, {
+      "id": "ade07e1a-20db-456d-8325-4c493fa0243e",
+      "comment": "",
+      "command": "click",
+      "target": "id=signInSubmit",
+      "targets": [
+        ["id=signInSubmit", "id"],
+        ["css=#signInSubmit", "css:finder"],
+        ["xpath=//input[@id='signInSubmit']", "xpath:attributes"],
+        ["xpath=//span[@id='auth-signin-button']/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ea83dca5-cfff-43ed-9b05-255d818676ba",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Ofertas del Día",
+      "targets": [
+        ["linkText=Ofertas del Día", "linkText"],
+        ["css=#nav-xshop > .nav-a:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Ofertas del Día')]", "xpath:link"],
+        ["xpath=//div[@id='nav-xshop']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/-/es/gp/goldbox?ref_=nav_cs_gb')]", "xpath:href"],
+        ["xpath=//div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Ofertas del Día')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "03cf06e5-6f75-41f2-8891-23b4bdde6027",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Ofertas en Renewed",
+      "targets": [
+        ["linkText=Ofertas en Renewed", "linkText"],
+        ["css=#nav-subnav > .nav-a:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='nav-subnav']/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/-/es/b/?ie=UTF8&node=16976406011&ref_=sv_subnav_goldbox_2')]", "xpath:href"],
+        ["xpath=//div[6]/div/a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Ofertas en Renewed')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b01946b5-c4dc-49b8-8e28-d1ec14406812",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Ofertas en Renewed",
+      "targets": [
+        ["linkText=Ofertas en Renewed", "linkText"],
+        ["css=#nav-subnav > .nav-a:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='nav-subnav']/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/-/es/b/?ie=UTF8&node=16976406011&ref_=sv_subnav_goldbox_2')]", "xpath:href"],
+        ["xpath=//div[6]/div/a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Ofertas en Renewed')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d5956898-16af-4586-a1bf-a71c26f45031",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Comprar de Nuevo",
+      "targets": [
+        ["linkText=Comprar de Nuevo", "linkText"],
+        ["css=#nav-xshop > .nav-a:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Comprar de Nuevo')]", "xpath:link"],
+        ["xpath=//div[@id='nav-xshop']/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/-/es/gp/buyagain?ie=UTF8&ref_=nav_cs_buy_again')]", "xpath:href"],
+        ["xpath=//div[2]/div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Comprar de Nuevo')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "80d54ca5-ea10-4da5-a603-0541ca7eb197",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Servicio al Cliente",
+      "targets": [
+        ["linkText=Servicio al Cliente", "linkText"],
+        ["css=#nav-xshop > .nav-a:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'Servicio al Cliente')]", "xpath:link"],
+        ["xpath=//div[@id='nav-xshop']/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/-/es/gp/help/customer/display.html?nodeId=508510&ref_=nav_cs_help')]", "xpath:href"],
+        ["xpath=//div[2]/div/a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Servicio al Cliente')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2f526add-2a1f-4037-9016-c29f0ea2be4c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Tarjetas de Regalo",
+      "targets": [
+        ["linkText=Tarjetas de Regalo", "linkText"],
+        ["css=#nav-xshop > .nav-a:nth-child(5)", "css:finder"],
+        ["xpath=//a[contains(text(),'Tarjetas de Regalo')]", "xpath:link"],
+        ["xpath=//div[@id='nav-xshop']/a[4]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/-/es/gift-cards/b/?ie=UTF8&node=2238192011&ref_=nav_cs_gc')]", "xpath:href"],
+        ["xpath=//div[2]/div/a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'Tarjetas de Regalo')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "738b840e-7b57-4190-a716-464dc99a72dd",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Canjear tarjetas de regalo",
+      "targets": [
+        ["linkText=Canjear tarjetas de regalo", "linkText"],
+        ["css=#nav-subnav > .nav-a:nth-child(4)", "css:finder"],
+        ["xpath=//div[@id='nav-subnav']/a[4]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/-/es/gc/redeem/?_encoding=UTF8&ref_=sv_gc_sv_main_3')]", "xpath:href"],
+        ["xpath=//div[6]/div/a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'Canjear tarjetas de regalo')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1f0264af-b523-4668-9e31-cbbe857fe66f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Listas",
+      "targets": [
+        ["linkText=Listas", "linkText"],
+        ["css=#nav-xshop > .nav-a:nth-child(6)", "css:finder"],
+        ["xpath=//a[contains(text(),'Listas')]", "xpath:link"],
+        ["xpath=//div[@id='nav-xshop']/a[5]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/-/es/gp/browse.html?node=16115931011&ref_=nav_cs_registry')]", "xpath:href"],
+        ["xpath=//div[2]/div/a[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1295f063-6bf3-4c56-99d1-f59d01c7bc37",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Vender",
+      "targets": [
+        ["linkText=Vender", "linkText"],
+        ["css=.nav-a:nth-child(7)", "css:finder"],
+        ["xpath=//a[contains(text(),'Vender')]", "xpath:link"],
+        ["xpath=//div[@id='nav-xshop']/a[6]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/-/es/b/?_encoding=UTF8&ld=AZUSSOA-sell&node=12766669011&ref_=nav_cs_sell')]", "xpath:href"],
+        ["xpath=//div[2]/div/a[6]", "xpath:position"],
+        ["xpath=//a[contains(.,'Vender')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "295310f6-8629-4e6c-bde3-d869fa6cc4a3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hm-icon-label",
+      "targets": [
+        ["css=.hm-icon-label", "css:finder"],
+        ["xpath=//a[@id='nav-hamburger-menu']/span", "xpath:idRelative"],
+        ["xpath=//div[4]/div/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bc3b46bc-5b82-4354-a3d7-7abc6f50e2be",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Salir",
+      "targets": [
+        ["linkText=Salir", "linkText"],
+        ["css=.hmenu-visible > li:nth-child(27) > .hmenu-item", "css:finder"],
+        ["xpath=//a[contains(text(),'Salir')]", "xpath:link"],
+        ["xpath=//a[@onclick=\"$Nav.getNow('signInRedirect')('nav_em_hd_re_signin', '/gp/flex/sign-out.html?action=sign-out&path=%2Fgp%2Fhomepage.html%3F_encoding%3DUTF8%26ref_%3Dnavm_em_signin&signIn=1&useRedirectOnSuccess=1&ref_=nav_em_signout_0_1_1_39', 'nav_em_hd_clc_signin_0_1_1_39')\"]", "xpath:attributes"],
+        ["xpath=//div[@id='hmenu-content']/ul/li[25]/a", "xpath:idRelative"],
+        ["xpath=//li[25]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Salir')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "32254b30-33fb-4cc6-8914-75aeb8a5ee7d",
+      "comment": "",
+      "command": "click",
+      "target": "id=authportal-main-section",
+      "targets": [
+        ["id=authportal-main-section", "id"],
+        ["css=#authportal-main-section", "css:finder"],
+        ["xpath=//div[@id='authportal-main-section']", "xpath:attributes"],
+        ["xpath=//div[@id='authportal-center-section']/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "5c9402ab-82cc-4ab8-be0e-60739ff5792d",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://demo.testim.io/", "https://www.amazon.com/"],
+  "plugins": []
+}
