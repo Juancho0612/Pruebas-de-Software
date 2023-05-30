@@ -1,0 +1,17 @@
+[
+  {
+    "id":1,
+      "nombre": "OIP.jpg",
+      "tamaño": "20,1 KB (20.633 bytes)",
+      "link": "https://mega.ibxk.com.br/2015/07/31/31153218446351.jpg?ims=1920x1080",
+      "tipo": "wallpaper"
+
+  },
+  {
+    "id":2,
+      "nombre": "cosas_que_solo_las_personas_que_lloran_por_todo_entenderan_fotos.jpg",
+      "tamaño": "354 KB (362.929 bytes)",
+      "link": "https://cdn2.salud180.com/sites/default/files/gallerie/2020/3/cosas_que_solo_las_personas_que_lloran_por_todo_entenderan_fotos.jpg",
+      "tipo": "foto generica"
+  }
+]

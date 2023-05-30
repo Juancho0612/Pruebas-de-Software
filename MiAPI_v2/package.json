@@ -1,0 +1,25 @@
+{
+  "name": "miapi",
+  "version": "1.0.0",
+  "description": "Mi primera API V2",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": " nodemon index.js",
+    "start": "node  index.js",
+    "lint": "eslint"
+  },
+  "keywords": [],
+  "author": "JUAN DAVID ALZATE ZAPATA",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "eslint-config-prettier": "^8.7.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.3",
+    "morgan": "^1.10.0",
+    "prettier": "^2.8.4"
+  }
+}
